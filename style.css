@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+.navbar {
+  height: 15vh;
+  background-color: #35424A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid #A9508B;
+}
+
+.navbar .logo a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar .logo span {
+  color: #A9508B;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menu ul li a {
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.menu ul li a.active {
+  color: #A9508B;
+}
+
+.section1 {
+  background-image: url(./img/showcase.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .design {
+  color: white;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.section1 .design h1 {
+  font-size: 2.5rem;
+}
+
+.section1 .design p {
+  font-size: 1.1rem;
+}
+
+.section2 {
+  height: 15vh;
+  background-color: #35424A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: white;
+}
+
+.section2 .subscribe #email {
+  width: 14rem;
+  height: 2rem;
+}
+
+.section2 .subscribe button {
+  height: 2rem;
+  padding: 0 10px;
+  background-color: #E8491D;
+  border: none;
+  color: white;
+}
+
+.section3 {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section3 .box {
+  width: 30%;
+  text-align: center;
+}
+
+.section3 #s3 {
+  padding: 1rem 0;
+}
+
+footer {
+  height: 15vh;
+  background-color: #35424A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.footer img {
+  width: 12rem;
+}
+
+.section4 {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.section4 .about-prg2, .whatwedo,
+.section5 .quote {
+  background-color: #35424A;
+  color: white;
+}
+
+.section4 .about-prg1 {
+  width: 53rem;
+  height: 15vh;
+  margin-top: 1rem;
+}
+
+.section4 .about-prg2 {
+  width: 53rem;
+  height: 18vh;
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+
+.section4 .whatwedo {
+  height: 33vh;
+  padding: 2rem 1rem;
+  margin-left: 4rem;
+}
+
+.section4 .whatwedo h4 {
+  padding-bottom: 1rem;
+}
+
+.section5 {
+  height: 105vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.section5 .box {
+  width: 53rem;
+  height: 30vh;
+  margin-top: 0.3rem;
+  background-color: #E6E6E6;
+  padding-left: 0.8rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section5 .quote {
+  height: 50vh;
+  width: 26rem;
+  margin-left: 4rem;
+}
+
+.section5 .quote form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0.8rem;
+}
+
+.quote form h4 {
+  padding: 1.7rem 0;
+}
+
+.quote form input, textarea {
+  width: 22rem;
+  height: 1.8rem;
+  padding-left: 0.5rem;
+}
+
+.quote form textarea {
+  width: 22rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.quote form button {
+  height: 2.5rem;
+  padding: 0 20px;
+  margin: 0.5rem 0;
+  background-color: #E8491D;
+  border: none;
+  color: white;
+}
